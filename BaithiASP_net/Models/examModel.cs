@@ -13,9 +13,9 @@ namespace BaithiASP_net.Models
         [Required(ErrorMessage = "Vui lòng nhập thông tin")]
         public string Subject { get; set; }
 
-        [Required(ErrorMessage = "Vui lòng nhập thông tin")]
+        [Required(ErrorMessage = "(HH:MM) ")]
         public string StartTime { get; set; }
-        [Required(ErrorMessage = "Vui lòng nhập thông tin")]
+        [Required(ErrorMessage = "(DD/MM/YYY)")]
         public string ExamDate { get; set; }
         [Required(ErrorMessage = "Vui lòng nhập thông tin")]
         public string Duration { get; set; }
